@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Vellomo · Repository</title>
+  <link rel="icon" href="Vellomo-official.png?v=3">
+  <link rel="stylesheet" href="repository.css?v=1">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="Vellomo-official.png?v=3" alt="Vellomo"><b>Vellomo</b></a>
+    <label class="search"><span>⌕</span><input id="repoSearch" type="search" placeholder="Search this repository" aria-label="Search repository files"></label>
+    <a class="back-link" href="index.html">← Back to site</a>
+  </header>
+  <main class="repo-page">
+    <nav class="breadcrumbs"><a href="index.html">vellomocoin</a><span>/</span><strong>Vellomo</strong><em>Public</em></nav>
+    <div class="repo-tabs"><a class="active" href="repository.html">⌘ Code</a><span>Issues <b>0</b></span><span>Pull requests <b>0</b></span><span>Actions</span><span>Projects</span></div>
+    <section class="repo-toolbar">
+      <button class="branch">⑂ <b>main</b>⌄</button>
+      <span class="commit"><i></i><b>Vellomo</b> local website source</span>
+      <a class="site-button" href="index.html">Open site</a>
+    </section>
+    <section class="repo-layout">
+      <aside class="file-panel">
+        <header><b>Files</b><span id="fileCount"></span></header>
+        <div id="fileTree" class="file-tree"></div>
+      </aside>
+      <article class="code-panel">
+        <header class="code-header">
+          <div><span>Vellomo</span><i>/</i><b id="activePath">README.md</b></div>
+          <button id="copyCode" type="button">Copy raw file</button>
+        </header>
+        <div class="file-meta"><span id="fileMeta">Loading file…</span><a id="rawLink" href="README.md" target="_blank">Raw</a></div>
+        <div id="codeView" class="code-view" aria-live="polite"></div>
+      </article>
+    </section>
+  </main>
+  <script src="repository.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "name": "@woodcutleaf/woodoo-bot",
+  "version": "1.0.0",
+  "description": "Woodoo — an autonomous AI that designs and builds a whole city on a Minecraft world, block by block.",
+  "main": "bot.js",
+  "type": "commonjs",
+  "bin": {
+    "woodoo-bot": "bot.js"
+  },
+  "files": [
+    "bot.js",
+    "cam-capture.js",
+    "ai.config.example.json",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodcutleaf/Woodoo.git",
+    "directory": "bot"
+  },
+  "keywords": [
+    "minecraft",
+    "mineflayer",
+    "ai-agent",
+    "autonomous",
+    "city-builder",
+    "voxel",
+    "woodoo"
+  ],
+  "author": "woodcutleaf",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "minecraft-data": "^3.60.0",
+    "mineflayer": "^4.20.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "openai": "^4.55.0",
+    "prismarine-schematic": "^1.2.3",
+    "prismarine-viewer": "^1.28.0",
+    "vec3": "^0.1.10"
+  }
+}

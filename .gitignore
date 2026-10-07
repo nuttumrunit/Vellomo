@@ -1,0 +1,24 @@
+# secrets — never commit the real AI key
+bot/ai.config.json
+
+# node
+node_modules/
+npm-debug.log*
+
+# bot runtime state (regenerated as it builds)
+bot/state.json
+bot/nyc-progress.json
+bot/*.before-map.json
+
+# local Minecraft/Paper runtime, world data and third-party binaries
+runtime/
+home/cam.jpg
+
+# os / editor
+Thumbs.db
+.DS_Store
+*.log
+
+# npm auth
+.npmrc
+bot/.npmrc
